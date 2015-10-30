@@ -3,13 +3,13 @@ var bio = {
   'name': 'Leah Hovig',
   'role': 'Front End Web Developer',
   'contacts': {
-    'mobile': '555-555-5555',
-    'email': 'lchovig@gmail.com.com',
-    'github': 'shinyotaku',
-    'twitter': '@shinyotaku',
-    'location': 'Irvine, CA'
+    'mobile': '<a href="tel:949-491-5888">949-491-5888</a>',
+    'email': '<a href=mailto:leah@leahhovig.com>leah@leahhovig.com</a>',
+    'github': '<a href=http://bit.ly/github-lhovig target="_blank">shinyotaku</a>',
+     'twitter': '<a href=http:twitter.com/shinyotaku target="_blank">@shinyotaku</a>',
+    'location': '<a href=http://bit.ly/irvine-california target="_blank">Irvine, CA</a>'
   },
-  'welcomeMessage': 'Highly-motivated and passionate Front End Web Developer Ninja. Passion for Japanese Otaku culture, love going to Black Hat, DEFCON, Comic-Con, review new tech products & interview über-geeks.',
+  'welcomeMessage': 'Highly-motivated and passionate Front End Web Developer Ninja. Passion for Japanese Otaku culture, enjoy going to Black Hat, DEFCON, Comic-Con, review new tech products & interview über-geeks.',
   'skills': [
     'HTML5, CSS3, Problem Solving, Python, JavaScript, JQuery, JSON, SQL',
     'Adobe Creative Cloud, Photoshop, Illustrator, Premier Pro, Adobe Social  ',
@@ -19,6 +19,12 @@ var bio = {
 };
 
 // Bio object methods.
+bio.display = function() {
+  this.displayNameAndRole();
+  this.displayContacts();
+  this.displayPicAndWelcomeMessage();
+  this.displaySkills();
+  };
 bio.displayNameAndRole = function() {
   var formattedName = HTMLheaderName.replace('%data%', this.name);
   var formattedRole = HTMLheaderRole.replace('%data%', this.role);
@@ -46,21 +52,16 @@ bio.displayPicAndWelcomeMessage = function() {
 
 bio.displaySkills = function() {
   var len = this.skills.length;
-  if (len > 0) {
+  if (len) {
     $('#header').append(HTMLskillsStart);
     for (var i = 0; i < len; i++) {
       var formattedSkill = HTMLskills.replace('%data%', this.skills[i]);
       $('#skills').append(formattedSkill);
+      
     }
   }
 };
 
-bio.display = function() {
-  this.displayNameAndRole();
-  this.displayContacts();
-  this.displayPicAndWelcomeMessage();
-  this.displaySkills();
-};
 
 // Work object definition.
 var work = {
@@ -138,16 +139,11 @@ var projects = {
     {
       'title': 'Portfolio Site',
       'dates': '2015',
-      'description': 'Project to build a portfolio site ' +
-                      'builts a websites using HTML and CSS, with ' +
-                      'responsiveness in mind. I believe through executing ' +
-                      'this project I have demonstrated my ability to ' +
-                      'properly implement the above tools in order to create ' +
-                      'websites that look and behave as well on mobile ' +
-                      'devices as they do on the desktop.',
+      'description': 'Project to build a responsive portfolio website. I developed a responsive website that displays images, descriptions and links. Feel free to look around and connect with me. This project was built using HTML and CSS. You will see I have demonstrated my ability to properly implement the above tools in order to create a responsive website. Making a responsive website you can easily view on a mobile devices or desktop. Click the link below to be redirected to my Portfolio site. <a href="http://shinyotaku.github.io/Portfolio/" target="_blank">CLICK HERE</a> ',
       'images': [
         'images/portfolio.png',
       ]
+
     }
   ]
 };
@@ -228,6 +224,10 @@ var education = {
 };
 
 // Education object methods.
+education.display = function() {
+  this.displaySchools();
+  this.displayOnlineCourses();
+};
 education.displaySchools = function() {
   var len = this.schools.length;
   for (var i = 0; i < len; i++) {
@@ -278,11 +278,6 @@ education.displayOnlineCourses = function() {
       $('.education-entry:last').append(formattedUrl);
     }
   }
-};
-
-education.display = function() {
-  this.displaySchools();
-  this.displayOnlineCourses();
 };
 
 // Display info from all objects.
