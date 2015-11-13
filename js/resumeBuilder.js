@@ -106,7 +106,7 @@ var work = {
       'dates': 'May 2004 - June 20076',
       'description': 'Responsible for monitoring campus-wide safety in cooperation with security operation center staff: managed security inquiries and badging requests submitted via Internet applications and e-mail; administered the associated databases and websites' +
                       'Collaborated with White House and Secret Service to provide internal, web-based information platform and electronic security infrastructure for the week of President Bush’s Panel on the American Competitiveness Initiative ' +
-                      'Organized security requests at the executive level for Global Security Department, including CEO, John Chambers; managed corporate conferences for high profile events such as Annual Shareholders Meeting, Cisco Live and the Data and Analytics Conference'
+                      'Organized security requests at the executive level for Global Security Department, including CEO, John Chambers; managed corporate conferences for high profile events such as Annual Shareholders Meeting, Cisco Live and the Data and Analytics Conference '
     }
   ]
 };
