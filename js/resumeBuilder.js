@@ -139,7 +139,7 @@ var projects = {
     {
       'title': 'Portfolio Site',
       'dates': '2015',
-      'description': 'Project to build a responsive portfolio website. I developed a responsive website that displays images, descriptions and links. Feel free to look around and connect with me. This project was built using HTML and CSS. You will see I have demonstrated my ability to properly implement the above tools in order to create a responsive website. Making a responsive website you can easily view on a mobile devices or desktop. Click the link below to be redirected to my Portfolio sites. <a href="http://shinyotaku.github.io/Portfolio/" target="_blank">CLICK HERE</a> ',
+      'description': 'Project to build a responsive portfolio website. I developed a responsive website that displays images, descriptions and links. Feel free to look around and connect with me. This project was built using HTML and CSS. You will see I have demonstrated my ability to properly implement the above tools in order to create a responsive website. Making a responsive website you can easily view on a mobile devices or desktop. Click the link below to be redirected to my Portfolio site. <a href="http://shinyotaku.github.io/Portfolio/" target="_blank">CLICK HERE</a> ',
       'images': ['images/Portfolio.png',
       ]
 
