@@ -67,6 +67,17 @@ bio.displaySkills = function() {
 var work = {
   'jobs': [
     {
+      'employer': 'Toastmasters International',
+      'title': 'Digital Marketing Specialist',
+      'location': 'Rancho Santa Margarita, CA',
+      'dates': 'December 2015 - Present',
+      'description': 'Administered electronic communication platforms, implemented Search Engine Marketing programs that aligned with corporate strategies and vision. Developed and implemented digital capaigns, digital strategy and monitored external communications and increase brand awareness and facilitate conversations among members worldwide' +
+                      'By accelerating brand awareness on key social media sites, promoting dynamic public relations programs and facilitating global conversations, Facebook fan-page membership grew from 74K to 126K over a one year period.' +
+                      'Executed a go-to-market strategy for digital marketing services by conducting educational webinars, providing insight into digital media, such as mobile marketing, social media channels, digital ads and campaign landing pages.' +
+                      'Administered Search Engine Optimization rankings with new content sttrategy by testing keywords using email opt-in forms on separate landing pages, with the help of Google AdWords, which also increased bounce rate, average sessions duration and Page sessions.' +
+                      'Utilized Google Analytics to make the best usage of metadata and increased organic traffic to the website by identifying links, keyword research and creating a keyword database.' +
+    },
+	{
       'employer': 'CBS Radio',
       'title': 'Manager of Digital Content & Operations',
       'location': 'Las Vegas, NV',
@@ -82,15 +93,6 @@ var work = {
                       'Awarded certificate of commendation from Senator Harry Reid and the Green Award from the Las Vegas Business Press for best green marketing campaign, “Viva Green Vegas',
     },
     {
-      'employer': 'Ventura Web Design',
-      'title': 'Store Developer & Designer',
-      'location': 'Las Vegas, NV',
-      'dates': 'June 2007 - August 2007',
-      'description': 'Designed, developed and implemented client websites for ecommerce stores on Yahoo Merchant Solutions ® platform. ' +
-                      'Managed online store platform, included feature functionality, user experience, landing page optimization, promotions and site refreshes ' +
-                      'sAssisted the Ecommerce Content & Production Manager in the set up of product records and online promotions on the Yahoo Merchant Solutions ® platform',
-    },
-    {
       'employer': 'Securitas Security Services',
       'title': 'Branch Manager',
       'location': 'Las Vegas, NV',
@@ -98,15 +100,6 @@ var work = {
       'description': 'Reported directly to Vice President and managed day-to-day operations of Las Vegas branch office to achieve service and profitability objectives. Initiated and directed new client contracts. Recruited, trained and retained high-performing field managers and supervisors. Ensured scheduling was handled effectively to meet client requirements, while balancing labor and operational overhead' +
                       'Responsible for development and management of $7.6 million budget that encompassed all business activities for southern Nevada; Directly supervised 12 account managers and over 100 security officers ' +
                       'Grew and managed diverse portfolio of corporate, retail, luxury residential and master planned communities, such as Cartier, NV Energy, Turnberry Towers and Red Rock Country Club',
-    },
-    {
-      'employer': 'Securitas Security Services at Cisco Systems ',
-      'title': 'Client Service Specialist',
-      'location': 'San Jose, CA',
-      'dates': 'May 2004 - June 20076',
-      'description': 'Responsible for monitoring campus-wide safety in cooperation with security operation center staff: managed security inquiries and badging requests submitted via Internet applications and e-mail; administered the associated databases and websites' +
-                      'Collaborated with White House and Secret Service to provide internal, web-based information platform and electronic security infrastructure for the week of President Bush’s Panel on the American Competitiveness Initiative ' +
-                      'Organized security requests at the executive level for Global Security Department, including CEO, John Chambers; managed corporate conferences for high profile events such as Annual Shareholders Meeting, Cisco Live and the Data and Analytics Conference'
     }
   ]
 };
@@ -181,7 +174,7 @@ var education = {
       'name': 'San Jose State University',
       'location': 'San Jose, CA',
       'degree': 'B.S.',
-      'majors': ['Biological Science'],
+      'majors': ['Business Administration, Concentration in Marketing'],
       'date': 2004,
       'url': 'http://www.sjsu.edu/'
     },
